@@ -79,6 +79,9 @@ aside {
 
 .new-contents a {
   color: black;
+  text-decoration: none;
+  display: inline-block;
+  margin-bottom: 5px;
 }
 
 .content2 {
@@ -197,6 +200,7 @@ footer {
 
   aside {
     width: 100%;
+    margin-top: 50px;
   }
 
   .container {
@@ -215,5 +219,9 @@ footer {
 
   .twitter {
     width: 100%;
+  }
+
+  .content-img {
+    max-width: 100%;
   }
 }
