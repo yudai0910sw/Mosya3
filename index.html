@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mosya3</title>
     <link rel="stylesheet" href="stylesheet.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
 </head>
@@ -15,16 +16,24 @@
         <h1 class="site-title wrapper">
             <a href="#"><img src="https://code-step.com/demo/html/blog/img/logo.svg"></a>
         </h1>
-        <nav class="navi">
-            <ul class="wrapper">
-                <li><a href="#">NEW</a></li>
-                <li><a href="#">COLUMN</a></li>
-                <li><a href="#">SELIES</a></li>
-                <li><a href="#">Q&A</a></li>
-                <li><a href="#">CONTACT</a></li>
+        <nav class="NavMenu">
+            <ul>
+              <li class=”current”><a href=”#”>NEW</a></li>
+              <li><a href=”#”>COLUMN</a></li>
+              <li><a href=”#”>SERIES</a></li>
+              <li><a href=”#”>Q&A</a></li>
+              <li><a href=”#”>CONTACT</a></li>
             </ul>
         </nav>
     </header>
+    
+    <!-- ハンバーガーメニュー -->
+    <div class="Toggle">
+      <span class="toggle-span"></span>
+      <span></span>
+      <span></span>
+    </div>
+    
 
     <div class="pickup">
         <div class="wrapper">
@@ -149,5 +158,6 @@
         <div class="copy-light">© Travel & Blog</div>
         
     </footer>
+    <script src="humberger.js"></script>
 </body>
 </html>
